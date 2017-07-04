@@ -1,0 +1,49 @@
+.profile{
+  height: 100%;
+  .login_bg{
+    width: 100%;
+    height: 40%;
+    background: url("../../common/images/login_bg.png");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+  }
+  .avatar{
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%);
+    background: url("../../common/images/profile.png");
+    background-size: cover;
+  }
+  .profile_btn{
+    width: 64px;
+    height: 25px;
+    border-radius: 10px;
+    background: #fff;
+    color: #188ae4;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    display: block;
+    bottom:20%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .profile-list{
+    padding:0 4%;
+    li{height: 45px;border-bottom: 1px solid #ebebeb;align-items:center;display: flex}
+    a{
+      display: flex;
+      flex: 1;
+      justify-content: space-between;
+      color: #ccc;
+      span{color: #383838;
+        i{margin-right:10px}
+      };
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.my-lesson-list{
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  h3{padding-left: 2%;font-size:22px;font-weight: normal;color: #383838}
+    p{
+      font-size: 16px;
+      color: #777777;
+      text-align: left;
+      line-height: 30px;
+      margin-left: 20px;
+    }
+    strong{
+      color: red;
+      padding: 0 0 15px 0 ;
+      font-size: 16px;
+    }
+  }
+  .lesson-list-item{
+    padding: 20px 0 ;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px -1px 2px #ccc, 0px 1px 2px #ccc;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    > div{
+      display: flex;
+      flex-direction: row;
+      padding-left: 2%;
+      align-items: center;
+      div{
+        display: flex;
+        flex-direction: column;
+      }
+  }
+}

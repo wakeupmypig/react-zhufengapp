@@ -1,0 +1,26 @@
+.swiper{
+  position: relative;
+  .carousel{
+    >div{
+      img{width: 100%}
+    }
+  }
+  .dots {
+    display: flex;
+  position: absolute;
+    bottom: 10px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    span{
+      width: 10px;height: 10px;
+      background: #ccc;
+      margin: 5px;
+      border-radius: 50%;
+    }
+    .active{
+      background: #888;
+    }
+  }
+}
